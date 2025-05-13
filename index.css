@@ -62,7 +62,7 @@ body {
 /* ヒーローセクション（背景画像） */
 .hero {
   height: 100vh;
-  background-image: url('https://source.unsplash.com/1600x900/?design');
+  background-image: url('https://as2.ftcdn.net/v2/jpg/05/85/94/75/1000_F_585947577_bzC0PesLqbJRpmCCnqnTngwX78o0ZStt.jpg');
   background-size: cover;
   background-position: center;
 }
