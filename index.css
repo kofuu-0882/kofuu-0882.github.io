@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* リセット */
 * {
   margin: 0;
@@ -6,6 +7,11 @@
 }
 
 body {
+  	margin: 0;
+	padding: 0;
+	font-family: "游ゴシック Medium", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+	line-height: 1.6;
+    font-size: 16px;
   font-family: sans-serif;
 }
 
@@ -70,7 +76,7 @@ body {
 /* ヒーローセクション（背景画像） */
 .hero {
   height: 100vh;
-  background-image: url('https://source.unsplash.com/1600x900/?design');
+  background-image: url('https://as2.ftcdn.net/v2/jpg/05/85/94/75/1000_F_585947577_bzC0PesLqbJRpmCCnqnTngwX78o0ZStt.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
