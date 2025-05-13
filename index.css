@@ -17,11 +17,41 @@ header {
 	padding: 20px 60px;
 	box-sizing: border-box;
 	background-color: rgba(0, 0, 0, 0.5); /* 透過 */
+	cover: white;
 	top: 0;
 	left: 0;
 	display: flex;
 	align-items: center;
 	z-index: 1000;
+}
+/* サイトタイトル */
+.site-title {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+/* ハンバーガーメニュー */
+.menu-icon {
+  width: 30px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* ヒーローセクション（背景画像） */
+.hero {
+  height: 100vh;
+  background-image: url('https://as2.ftcdn.net/v2/jpg/05/85/94/75/1000_F_585947577_bzC0PesLqbJRpmCCnqnTngwX78o0ZStt.jpg');
+  background-size: cover;
+  background-position: center;
 }
 #logo {
 	font-size: 26px;
