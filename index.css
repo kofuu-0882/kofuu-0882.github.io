@@ -87,3 +87,21 @@ body {
   max-width: 800px;
   margin: 0 auto;
 }
+
+/* 無料体験ボタン */
+.fjoin-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #f48fb1; /* ピンク系カラー */
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.fjoin-button:hover {
+  background-color: #ec407a; /* 少し濃いピンクでホバー */
+}
