@@ -63,7 +63,7 @@ body {
 /* キャッチコピー */
 .hero-text {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -112,6 +112,7 @@ body {
   border-radius: 30px;
   transition: background-color 0.3s ease;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
 }
 
 .fjoin-button:hover {
