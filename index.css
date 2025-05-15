@@ -63,6 +63,18 @@ body {
 /* キャッチコピー */
 .hero-text {
   position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  z-index: 10;
+}
+
+/* 店名 */
+.hero-name {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
