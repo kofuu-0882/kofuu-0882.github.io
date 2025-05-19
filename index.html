@@ -1,40 +1,127 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ピラティススタジオ HANA</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
- 
-<!-- ヘッダー -->
-  <header class="header">
-    <div class="header-content">
-      <div class="menu-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <h1 class="site-title">My Portfolio</h1>
-    </div>
-  </header>
- 
-  <main>
-    <section class="hero">
-	<div class="hero-text">
- 	<h1>心と身体を整える、ピラティススタジオ</h1></div>
-	<div class="hero-name">
-	<h1>PILATES STUDIO HANA</h1>
-	<a href="#contact" class="fjoin-button">無料体験レッスンはこちら</a></div>
-    	
-    </section>
-    <section class="content">
-      <h2>はじめまして　ピラティススタジオHANAです。</h2>
-      <p>札幌駅から徒歩5分　｜　女性専用スタジオ</p>
-      <p>ダミーテキストをスクロール用にたくさん入れてみてください。</p>
-    </section>
-  </main>
- 
-</body>
-</html>
+@charset "UTF-8";
+/* リセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  	margin: 0;
+	padding: 0;
+	font-family: “N”oto Sans JP,”游ゴシック Medium", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+	line-height: 1.6;
+    font-size: 16px;
+  font-family: sans-serif;
+}
+
+/* ヘッダー全体 */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  color: white;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* ヘッダー内の配置 */
+.header-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* サイトタイトル */
+.site-title {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+/* ハンバーガーメニュー */
+.menu-icon {
+  width: 30px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* キャッチコピー */
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  z-index: 10;
+}
+
+/* 店名 */
+.hero-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  z-index: 10;
+}
+
+/* ヒーローセクション（背景画像） */
+.hero {
+  height: 100vh;
+  background-image: url('https://as2.ftcdn.net/v2/jpg/05/85/94/75/1000_F_585947577_bzC0PesLqbJRpmCCnqnTngwX78o0ZStt.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* コンテンツ */
+.content {
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* コンテンツ 中央 */
+.content-center {
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 無料体験ボタン */
+.fjoin-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #f48fb1; /* ピンク系カラー */
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.fjoin-button:hover {
+  background-color: #ec407a; /* 少し濃いピンクでホバー */
+}
