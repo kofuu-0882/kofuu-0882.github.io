@@ -99,6 +99,13 @@ body {
   max-width: 800px;
   margin: 0 auto;
 }
+/* コンテンツ 中央 */
+.content-center {
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
 
 /* 無料体験ボタン */
 .fjoin-button {
