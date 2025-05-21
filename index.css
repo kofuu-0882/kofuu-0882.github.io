@@ -137,22 +137,22 @@ body {
   font-size: 0.9rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   position: absolute; /* 必要に応じて位置調整 */
-  top: 20%;
+  top: 30%;
   z-index: 10;
 }
 
 .label-1 {
-  top: 70%;
+  top: 100%;
   left: 30%;
 }
 
 .label-2 {
-  top: 70%;
+  top: 100%;
   left: 40%;
 }
 
 .label-3 {
-  top: 70%;
+  top: 100%;
   left: 50%;
 }
 
