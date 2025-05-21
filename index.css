@@ -153,21 +153,31 @@ body {
 /* 概要 */
 .about {
   display: flex;
-  justify-content: space-between;
-  padding: 15px 0;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 60px;
+  align-items: flex-start;
 }
 
-.about-this {
-  font-size: 1.4rem;
+.about-left {
+  flex: 1;
+  min-width: 250px;
+  font-size: 1.5rem;
   font-weight: bold;
-  flex: 1;
+  color: #f48fb1;
+  line-height: 1.6;
 }
 
-/* 概要説明 */
-.about-detail {
+.about-left p {
+  margin-bottom: 10px;
+}
+
+.about-right {
+  flex: 2;
+  min-width: 300px;
   font-size: 1rem;
-  text-align: right;
-  flex: 1;
+  color: #444;
+  line-height: 1.8;
 }
 
 .pricing {
