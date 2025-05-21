@@ -93,14 +93,13 @@ body {
 
 /* コンテンツ */
 .content {
-  padding: 80px 20px;
+  padding: 80px 10px;
   max-width: 800px;
   margin: 0 auto;
 }
 
 /* コンテンツ 中央 */
 .content h2 {
-  text-align: center;
   margin-bottom: 20px;
 }
 
