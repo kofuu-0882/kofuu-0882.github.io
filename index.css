@@ -120,3 +120,24 @@ body {
 .fjoin-button:hover {
   background-color: #ec407a; /* 少し濃いピンクでホバー */
 }
+
+/* 丸背景 */
+.circle-label {
+  width: 120px;
+  height: 120px;
+  background-color: #f48fb1; /* ピンク系 */
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: absolute; /* 必要に応じて位置調整 */
+  top: 20%;
+  left: 10%;
+  z-index: 10;
+}
