@@ -150,6 +150,11 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* 概要説明 */
+.about {
+  padding: 10px 50px 30px 0;
+}
+
 .pricing {
   padding: 60px 20px;
   text-align: center;
