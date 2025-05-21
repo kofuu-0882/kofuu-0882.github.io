@@ -162,7 +162,7 @@ body {
 .about-left {
   flex: 1;
   min-width: 250px;
-  font-size: 1.5rem;
+  font-size: 18px;
   font-weight: bold;
   color: #f48fb1;
   line-height: 1.6;
