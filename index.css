@@ -136,7 +136,7 @@ body {
 .circle-label {
   width: 120px;
   height: 120px;
-  background-color: #f48fb1;
+  background-color: #ffffff;
   color: white;
   font-weight: bold;
   border-radius: 50%;
@@ -146,6 +146,7 @@ body {
   text-align: center;
   line-height: 1.2;
   font-size: 0.9rem;
+  font-color: #f48fb1
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
