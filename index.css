@@ -150,9 +150,16 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* 概要説明 */
+/* 概要 */
 .about {
-  padding: 10px 50px 30px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  flex: 1;
+}
+
+/* 概要説明 */
+.about-detail {
+  font-size: 1rem;
   text-align: right;
   flex: 1;
 }
