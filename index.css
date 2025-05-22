@@ -181,6 +181,9 @@ body {
 }
 
 .pricing {
+  padding: 80px 10px;
+  max-width: 800px;
+  margin: 0 auto;
   background-color: #fff0f5;
 }
 
