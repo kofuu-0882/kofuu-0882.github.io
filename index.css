@@ -1,3 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ピラティススタジオ HANA</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+ 
+<!-- ヘッダー -->
+  <header class="header">
+    <div class="header-content">
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h1 class="site-title">Pilates studio HANA</h1>
+    </div>
+  </header>
+ 
+  <main>
+    <section class="hero">
+	<div class="hero-inner">
+		<div class="hero-text">
+ 		<h1>心と身体を整える、ピラティススタジオ</h1></div>
+		<div class="hero-name">
+		<h1>PILATES STUDIO HANA</h1>
+		<a href="#contact" class="fjoin-button">無料体験レッスンはこちら</a></div>
+    	
+    </section>
+  <section class="content">
+    <h2>PILATES STUDIO HANAの特徴</h2>
+
+    <div class="circle-labels">
+     <div class="circle-label">札幌駅から<br>徒歩5分</div>
+      <div class="circle-label">女性専用<br>スタジオ</div>
+      <div class="circle-label">パーソナル<br>グループレッスン有</div>
+      <div class="circle-label">一定回数毎に<br>目標設定</div>
+    </div>
+<div class="about">
+  <div class="about-left">
+    <p>”ピラティス”</p>
+    <p>とは？</p>
+  </div>
+  <div class="about-right">
+    <p>ドイツのジョセフ・ピラティス氏が考案したエクササイズで、</p>
+    <p>身体の深層部にあるインナーマッスルを鍛えて、体全体のバランスを整えることを目的とします。</p>
+    <p>PILATES STUDIO HANAで、心を落ち着かせ、姿勢改善や理想的な身体へ近づけましょう。</p>
+  </div>
+</div>
+  </section>
+
+<section class="pricing">
+  <h2>プランと料金</h2>
+  <table class="price-table">
+    <thead>
+      <tr>
+        <th>プラン名</th>
+        <th>内容</th>
+        <th>価格</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>体験レッスン</td>
+        <td>初回限定60分</td>
+        <td>¥0</td>
+      </tr>
+      <tr>
+        <td>グループレッスン（月4回）</td>
+        <td>1回50分 × 月4</td>
+        <td>¥8,800</td>
+      </tr>
+      <tr>
+        <td>パーソナルレッスン（月4回）</td>
+        <td>完全個別指導</td>
+        <td>¥16,000</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
 @charset "UTF-8";
 /* リセット */
 * {
@@ -239,3 +323,9 @@ body {
   margin-top: 10px;
 }
 
+
+
+  </main>
+ 
+</body>
+</html>
