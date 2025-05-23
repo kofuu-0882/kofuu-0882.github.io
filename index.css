@@ -273,3 +273,59 @@ body {
   margin-top: 10px;
 }
 
+/* 体験申し込みフォーム */
+.form-container {
+  max-width: 600px;
+  margin: 120px auto 60px; /* ヘッダー分の余白 + 下余白 */
+  padding: 40px 20px;
+  background-color: #fff0f5;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-container h1 {
+  font-size: 1.8rem;
+  color: #f48fb1;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-container p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.trial-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.trial-form label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+.trial-form input,
+.trial-form textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.trial-form input:focus,
+.trial-form textarea:focus {
+  border-color: #f48fb1;
+  outline: none;
+  box-shadow: 0 0 5px rgba(244, 143, 177, 0.4);
+}
+
+.trial-form .fjoin-button {
+  width: fit-content;
+  align-self: center;
+  cursor: pointer;
+}
