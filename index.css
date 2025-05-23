@@ -91,16 +91,61 @@ body {
   font-size: 2rem;
 }
 
-/* コンテンツ */
-.content {
-  padding: 80px 10px;
+/* 各セクション共通スタイル */
+.section {
+  padding: 60px 20px;
   max-width: 800px;
   margin: 0 auto;
 }
 
-/* コンテンツ 中央 */
-.content h2 {
+.section h2 {
+  text-align: left;
+  font-size: 1.8rem;
   margin-bottom: 20px;
+  color: #333;
+}
+
+/* 特徴（特徴セクションは既に .content クラスで設定済） */
+.content {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content h2 {
+  text-align: left;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* プランと料金 */
+.pricing {
+  background-color: #fff0f5;
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pricing h2 {
+  text-align: left;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 講師紹介 */
+.instructor {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.instructor h2 {
+  text-align: left;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 /* 無料体験ボタン */
@@ -180,16 +225,6 @@ body {
   line-height: 1.8;
 }
 
-.pricing {
-  background-color: #fff0f5;
-}
-
-.pricing h2 {
-  padding: 10px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 .price-table {
   width: 100%;
   max-width: 700px;
@@ -210,11 +245,6 @@ body {
 .price-table th {
   background-color: #f48fb1;
   color: white;
-}
-
-.instructor {
-  padding: 60px 20px;
-  text-align: center;
 }
 
 .instructor-card {
