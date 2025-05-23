@@ -120,9 +120,14 @@ body {
 }
 
 /* プランと料金 */
+.pricing-wrapper {
+  background-color: #fff0f5; /* ピンク背景 */
+  padding: 60px 0;
+}
+
 .pricing {
   background-color: #fff0f5;
-  padding: 60px 20px;
+  padding: 0 20px;
   max-width: 800px;
   margin: 0 auto;
 }
