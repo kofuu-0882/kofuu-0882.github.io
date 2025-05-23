@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>無料体験申し込み</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>無料体験のお申し込み</h1>
+    <p>以下のフォームにご入力ください。担当者よりご連絡いたします。</p>
+
+    <form class="trial-form" action="#" method="post">
+      <label for="name">お名前</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">電話番号（任意）</label>
+      <input type="tel" id="phone" name="phone" />
+
+      <label for="date">ご希望日</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="message">ご質問・ご要望（任意）</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit" class="fjoin-button">送信する</button>
+    </form>
+  </div>
+</body>
+</html>
